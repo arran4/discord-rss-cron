@@ -40,7 +40,7 @@ func main() {
 		return
 	}
 	if last.FeedUrl == "" || last.HookUrl == "" {
-		log.Printf("FeedUrl, or HookUrl in %s empty / not present. Please edit %s and add the values")
+		log.Printf("FeedUrl, or HookUrl in %s empty / not present. Please edit %s and add the values", cfn, cfn)
 		cfnb, err = json.Marshal(last)
 		if err != nil {
 			log.Panicf("Error: %s", err)
