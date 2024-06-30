@@ -1,4 +1,4 @@
-module discord-rss-webhook
+module github.com/arran4/discord-rss-webhook
 
 go 1.22
 
