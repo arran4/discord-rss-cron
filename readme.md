@@ -5,7 +5,7 @@
 Install
 
 ```
-go install github.com/arran4/discord-rss-webhook/cmd/discord-rss-cron
+go install github.com/arran4/discord-rss-cron/cmd/discord-rss-cron
 ```
 
 Setup Scheduled task:
